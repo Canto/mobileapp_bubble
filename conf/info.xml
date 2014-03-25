@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+	<title xml:lang="ko">모바일 앱 안내</title>
+	<description xml:lang="ko">
+		모바일 홈페이지로 접속시 모바일 앱이 설치되어 있는지 확인 후 설치되어 있지 않다면 안내 팝업 표시.
+		모바일 앱에서의 설정이 필요합니다.
+	</description>
+	<version>1.0</version>
+	<date>2014-03-25</date>
+	<author email_address="canto87@naver.com" link="http://canto.btool.kr">
+		<name xml:lang="ko">Canto</name>
+	</author>
+	<extra_vars>
+		<var name="Applemarket">
+			<title xml:lang="ko">마켓 주소(애플)</title>
+			<description xml:lang="ko">
+				해당 앱의 애플 마켓 주소를 입력해주세요.
+				ex)http://itunes.apple.com/kr/app/id393499958?mt=8
+				본 내용이 비워져있으면 iOS 용 앱은 체크하지 않습니다.
+			</description>
+		</var>
+		<var name="Androidmarket">
+			<title xml:lang="ko">마켓 주소(안드로이드)</title>
+			<description xml:lang="ko">
+				해당 앱의 안드로이드 마켓 주소를 입력해주세요.
+				ex)market://details?id=com.nhn.android.search
+				본 내용이 비워져있으면 안드로이드 용 앱은 체크하지 않습니다.
+			</description>
+		</var>
+		<var name="Appicon">
+			<title xml:lang="ko">앱 아이콘</title>
+			<description xml:lang="ko">
+				앱의 아이콘 이미지를 입력해주세요.
+				ex)http://image.com/image.png
+				이미지가 없으면 기본 XE 아이콘으로 표시됩니다.
+			</description>
+		</var>
+	</extra_vars>
+</addon>
